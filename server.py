@@ -243,9 +243,7 @@ def run(routes, host='0.0.0.0', port=8080):
     server.waitForThread()
 
 
-################################################################################
-#
-# App
+
 
 ops = {
     'buy': operator.le,
